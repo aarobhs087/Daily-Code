@@ -1,3 +1,5 @@
+# 3016. Minimum Number of Pushes to Type Word II
+
 You are given a string word containing lowercase English letters.
 
 Telephone keypads have keys mapped with distinct collections of lowercase English letters, which can be used to form words by pushing them. For example, the key 2 is mapped with ["a","b","c"], we need to push the key one time to type "a",  two times to type "b", and three times to type "c" .
