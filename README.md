@@ -1,2 +1,2 @@
 # Daily-Code
-Leetcode, GFG, CodingNinjas
+Leetcode, GFG...
