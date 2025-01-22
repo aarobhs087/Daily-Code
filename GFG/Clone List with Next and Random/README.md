@@ -65,16 +65,30 @@ Input: LinkedList: 1->2->3->4->5 , pairs = [[1,3],[2,1],[3,5],[4,3],[5,2]]
 
  
 Output: true
+
 Explanation: 
+
 Node 1 points to 2 as its NEXT and 3 as its RANDOM.
+
 Node 2 points to 3 as its NEXT and 1 as its RANDOM.
+
 Node 3 points to 4 as its NEXT and 5 as its RANDOM.
+
 Node 4 points to 5 as its NEXT and 3 as its RANDOM.
+
 Node 5 points to NULL as its NEXT and 2 as its RANDOM.
+
 Input: LinkedList: 1->3->5->9 , pairs = [[1,1],[3,4]]
+
 Output: true
+
 Explanation: In the given testcase, applying the method as stated in the above example, the output will be true.
+
+
 Constraints:
+
 1 <= numbers of random pointer <= number of nodes <= 100
+
 0 <= node->data <= 1000
+
 1 <= a, b <= 100
